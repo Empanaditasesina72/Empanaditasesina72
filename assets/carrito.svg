@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 72" width="144" height="72" shape-rendering="crispEdges">
+  <!-- Carrito de carreras pixel art - 8px grid -->
+  <!-- humo del escape -->
+  <g fill="#b9c0c8">
+    <rect x="8" y="40" width="8" height="8">
+      <animate attributeName="opacity" values="0;1;0" dur="0.8s" calcMode="discrete" repeatCount="indefinite" begin="0s"/>
+    </rect>
+    <rect x="0" y="48" width="8" height="8">
+      <animate attributeName="opacity" values="0;1;0" dur="0.8s" calcMode="discrete" repeatCount="indefinite" begin="0.4s"/>
+    </rect>
+  </g>
+  <g transform="translate(16,0)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.45s" calcMode="discrete" repeatCount="indefinite"/>
+      <!-- contorno -->
+      <g fill="#1d1d2b">
+        <rect x="40" y="0" width="48" height="8"/>
+        <rect x="32" y="8" width="8" height="8"/><rect x="64" y="8" width="8" height="8"/><rect x="88" y="8" width="8" height="8"/>
+        <rect x="16" y="16" width="24" height="8"/><rect x="64" y="16" width="8" height="8"/><rect x="88" y="16" width="24" height="8"/>
+        <rect x="8" y="24" width="8" height="8"/><rect x="112" y="24" width="8" height="8"/>
+        <rect x="0" y="32" width="8" height="8"/><rect x="120" y="32" width="8" height="8"/>
+        <rect x="0" y="40" width="8" height="8"/><rect x="120" y="40" width="8" height="8"/>
+        <rect x="0" y="48" width="16" height="8"/><rect x="48" y="48" width="32" height="8"/><rect x="112" y="48" width="16" height="8"/>
+      </g>
+      <!-- ventanas -->
+      <g fill="#9fd8ff">
+        <rect x="40" y="8" width="24" height="8"/><rect x="72" y="8" width="16" height="8"/>
+        <rect x="40" y="16" width="24" height="8"/><rect x="72" y="16" width="16" height="8"/>
+      </g>
+      <!-- carroceria -->
+      <g fill="#e64539">
+        <rect x="16" y="24" width="96" height="8"/>
+        <rect x="8" y="32" width="32" height="8"/><rect x="72" y="32" width="32" height="8"/>
+      </g>
+      <!-- franja de carreras y faro -->
+      <g fill="#ffd23e">
+        <rect x="40" y="32" width="32" height="8"/>
+        <rect x="104" y="32" width="16" height="8"/>
+      </g>
+      <!-- falda inferior -->
+      <rect x="8" y="40" width="112" height="8" fill="#b3271e"/>
+      <!-- llantas -->
+      <g fill="#2a2a35">
+        <rect x="16" y="48" width="32" height="8"/><rect x="80" y="48" width="32" height="8"/>
+        <rect x="16" y="56" width="32" height="8"/><rect x="80" y="56" width="32" height="8"/>
+        <rect x="24" y="64" width="16" height="8"/><rect x="88" y="64" width="16" height="8"/>
+      </g>
+      <!-- rines girando -->
+      <g fill="#9a9aa8">
+        <rect x="24" y="56" width="16" height="8"/><rect x="88" y="56" width="16" height="8"/>
+      </g>
+      <g fill="#2a2a35">
+        <rect x="32" y="56" width="8" height="8">
+          <animate attributeName="opacity" values="1;0" dur="0.3s" calcMode="discrete" repeatCount="indefinite"/>
+        </rect>
+        <rect x="96" y="56" width="8" height="8">
+          <animate attributeName="opacity" values="1;0" dur="0.3s" calcMode="discrete" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+</svg>

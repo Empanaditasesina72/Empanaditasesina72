@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 16" width="880" height="16" preserveAspectRatio="none" shape-rendering="crispEdges">
+  <!-- Divisor pixel art -->
+  <defs>
+    <pattern id="px" width="40" height="16" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="8" height="8" fill="#fb4934"/>
+      <rect x="8" y="0" width="8" height="8" fill="#fabd2f"/>
+      <rect x="16" y="0" width="8" height="8" fill="#b8bb26"/>
+      <rect x="24" y="0" width="8" height="8" fill="#83a598"/>
+      <rect x="32" y="0" width="8" height="8" fill="#d3869b"/>
+      <rect x="0" y="8" width="8" height="8" fill="#b8bb26"/>
+      <rect x="8" y="8" width="8" height="8" fill="#83a598"/>
+      <rect x="16" y="8" width="8" height="8" fill="#d3869b"/>
+      <rect x="24" y="8" width="8" height="8" fill="#fb4934"/>
+      <rect x="32" y="8" width="8" height="8" fill="#fabd2f"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="16" fill="url(#px)"/>
+</svg>

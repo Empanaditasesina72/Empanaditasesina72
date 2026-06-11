@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 96" width="128" height="96" shape-rendering="crispEdges">
+  <!-- Empanadita pixel art - 8px grid -->
+  <!-- vapor animado -->
+  <g fill="#aab6c2">
+    <rect x="40" y="16" width="8" height="8">
+      <animate attributeName="y" values="16;8;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="opacity" values="0;1;0.5;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="0s"/>
+    </rect>
+    <rect x="64" y="16" width="8" height="8">
+      <animate attributeName="y" values="16;8;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="0.6s"/>
+      <animate attributeName="opacity" values="0;1;0.5;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+    <rect x="88" y="16" width="8" height="8">
+      <animate attributeName="y" values="16;8;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="opacity" values="0;1;0.5;0" dur="1.8s" calcMode="discrete" repeatCount="indefinite" begin="1.2s"/>
+    </rect>
+  </g>
+  <!-- contorno -->
+  <g fill="#3b2410">
+    <rect x="48" y="24" width="32" height="8"/>
+    <rect x="32" y="32" width="16" height="8"/><rect x="80" y="32" width="16" height="8"/>
+    <rect x="24" y="40" width="8" height="8"/><rect x="96" y="40" width="8" height="8"/>
+    <rect x="16" y="48" width="8" height="8"/><rect x="104" y="48" width="8" height="8"/>
+    <rect x="8" y="56" width="8" height="8"/><rect x="112" y="56" width="8" height="8"/>
+    <rect x="8" y="64" width="8" height="8"/><rect x="112" y="64" width="8" height="8"/>
+    <rect x="0" y="72" width="8" height="8"/><rect x="120" y="72" width="8" height="8"/>
+    <rect x="0" y="80" width="8" height="8"/><rect x="120" y="80" width="8" height="8"/>
+    <rect x="8" y="88" width="112" height="8"/>
+  </g>
+  <!-- masa dorada -->
+  <g fill="#e8a33d">
+    <rect x="64" y="32" width="16" height="8"/>
+    <rect x="32" y="40" width="8" height="8"/><rect x="64" y="40" width="32" height="8"/>
+    <rect x="24" y="48" width="8" height="8"/><rect x="56" y="48" width="48" height="8"/>
+    <rect x="16" y="56" width="8" height="8"/><rect x="40" y="56" width="72" height="8"/>
+    <rect x="16" y="64" width="96" height="8"/>
+    <rect x="8" y="72" width="112" height="8"/>
+    <rect x="8" y="80" width="112" height="8"/>
+  </g>
+  <!-- brillo -->
+  <g fill="#f8c860">
+    <rect x="48" y="32" width="16" height="8"/>
+    <rect x="40" y="40" width="24" height="8"/>
+    <rect x="32" y="48" width="24" height="8"/>
+    <rect x="24" y="56" width="16" height="8"/>
+  </g>
+  <!-- detalles horneados -->
+  <g fill="#c97f26">
+    <rect x="48" y="64" width="8" height="8"/><rect x="80" y="64" width="8" height="8"/>
+    <rect x="32" y="72" width="8" height="8"/><rect x="64" y="72" width="8" height="8"/><rect x="96" y="72" width="8" height="8"/>
+    <!-- borde repulgado -->
+    <rect x="16" y="80" width="8" height="8"/><rect x="32" y="80" width="8" height="8"/><rect x="48" y="80" width="8" height="8"/>
+    <rect x="64" y="80" width="8" height="8"/><rect x="80" y="80" width="8" height="8"/><rect x="96" y="80" width="8" height="8"/><rect x="112" y="80" width="8" height="8"/>
+  </g>
+</svg>
